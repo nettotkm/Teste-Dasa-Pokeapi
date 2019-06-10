@@ -1,33 +1,32 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contain{
+  margin-top: 30px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+.card {
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  font-family: sans-serif;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 1px 20px rgba(0, 0, 0, 0.24);
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.title {
+  align-items: center;
   color: white;
+  margin-top: 50px;
+}
+.container{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vsc-initialized{
+  background-image: url(./image/pokebola3.png);
+  background-repeat: repeat;
 }
